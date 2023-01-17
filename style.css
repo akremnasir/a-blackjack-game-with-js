@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    text-align: center;
+    background: darkgreen;
+    color: white;
+    font-weight: bold;
+}
+h1{
+    color: goldenrod;
+}
+button{
+    width: 150px;
+    padding: 5px 0;
+    border: 0;
+    border-radius: 2px;
+    background: goldenrod;
+    color: darkgreen;
+    font-weight: bold;
+}
+.search-button{
+     width: 50px;
+}
+input{
+    border: 1px solid white;
+    background:darkgreen; 
+    color: white;
+    padding: 3px;
+    font-weight: bold;
+}
+button:hover{
+    border: 1px solid white;
+}
+button:focus{
+    border: 1px solid white;
+}
+.buttons-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.buttons-1 > *{
+    margin: 2px 0;
+}
