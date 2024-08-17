@@ -1,9 +1,15 @@
 body{
     margin: 0;
-    text-align: center;
-    background: darkgreen;
+    height: 100vh;
+    background: #006400;
     color: white;
     font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.div{
+    text-align: center;
 }
 h1{
     color: goldenrod;
@@ -13,7 +19,7 @@ button{
     padding: 5px 0;
     border: 0;
     border-radius: 2px;
-    background: goldenrod;
+    background: #daa520;
     color: darkgreen;
     font-weight: bold;
 }
@@ -30,9 +36,9 @@ input{
 button:hover{
     border: 1px solid white;
 }
-button:focus{
+ button:focus{
     border: 1px solid white;
-}
+} 
 .buttons-1{
     display: flex;
     flex-direction: column;

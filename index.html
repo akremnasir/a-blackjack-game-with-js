@@ -7,21 +7,23 @@
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
-<body>
-    <h1>balckjack</h1>
-    <label for="player-name">Full Name</label>
-    <input type="text" id="player-name" placeholder="enter your name">
-    <span><button class="search-button" onclick="enterName()">ENTER</button></span>
-    <p id="notify">want to play a round?</p>
-    <p id="card-el">cards:</p>
-    <p id="sum-el">sum:</p>
-    <div class="buttons-1">
-        <button onclick="startgame()">START GAME</button>
-        <button onclick="newcard()">NEW CARD</button>
+<body onload="bodyLoad()">
+    <div class = "div">
+        <h1>Balck jack</h1>
+        <div id ="name">
+            <label for="player-name">Full Name</label>
+            <input type="text" id="player-name" placeholder="enter your name" onchange="inputChange()">
+            <span><button class="search-button" onclick="enterName()">ENTER</button></span>
+        </div>
+        <p id="notify">want to play a round?</p>
+        <p id="card-el">cards:</p>
+        <p id="sum-el">sum:</p>
+        <div class="buttons-1">
+            <button onclick="startGame()">START GAME</button>
+            <button onclick="newCard()">NEW CARD</button>
+        </div>
+        <p id="player-el"></p> 
+        <script src="index.js"></script>
     </div>
-    <p id="player-el"></p>
-    
-    
-    <script src="index.js"></script>
 </body>
 </html>
